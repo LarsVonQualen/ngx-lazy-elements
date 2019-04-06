@@ -4,7 +4,14 @@
   "description": "Library that helps you manage lazy Angular Elements Web Components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ng test --project ngx-lazy-elements",
+    "e2e": "ng e2e --project ngx-lazy-elements-test-shell-e2e",
+    "start": "ng test --watch --project ngx-lazy-elements",
+    "start:shell": "ng serve --project ngx-lazy-elements-test-shell",
+    "build": "ng build",
+    "release:patch": "./tools/publish.sh patch",
+    "release:minor": "./tools/publish.sh minor",
+    "release:major": "./tools/publish.sh major"
   },
   "repository": {
     "type": "git",
@@ -22,5 +29,50 @@
   "bugs": {
     "url": "https://github.com/LarsVonQualen/ngx-lazy-elements/issues"
   },
-  "homepage": "https://github.com/LarsVonQualen/ngx-lazy-elements#readme"
+  "homepage": "https://github.com/LarsVonQualen/ngx-lazy-elements#readme",
+  "dependencies": {
+    "@angular/animations": "~7.2.0",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/elements": "^7.2.12",
+    "@angular/forms": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "classlist.js": "^1.1.20150312",
+    "core-js": "^2.5.4",
+    "document-register-element": "^1.13.1",
+    "elements-zone-strategy": "^7.0.0",
+    "rxjs": "^6.4.0",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.13.0",
+    "@angular-devkit/build-ng-packagr": "~0.13.0",
+    "@angular/cli": "~7.3.8",
+    "@angular/compiler-cli": "~7.2.0",
+    "@angular/language-service": "~7.2.0",
+    "@types/node": "~8.9.4",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "codelyzer": "~4.5.0",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^4.2.0",
+    "prettier": "^1.16.4",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tsickle": ">=0.34.0",
+    "tslib": "^1.9.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.2.2"
+  }
 }
