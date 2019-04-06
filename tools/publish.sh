@@ -5,6 +5,8 @@ pushd projects/ngx-lazy-elements
 VERSION=$(npm version $LEVEL)
 popd
 
+git add .
+git commit -m "$VERSION"
 git push
 
 npm run ci
