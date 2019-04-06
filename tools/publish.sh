@@ -1,8 +1,6 @@
 #!/bin/bash
 
-npm run test
-npm run build
-npm run e2e
+npm run ci
 
 pushd dist/ngx-lazy-elements
 

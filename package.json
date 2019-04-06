@@ -9,6 +9,7 @@
     "start": "ng test --watch --project ngx-lazy-elements",
     "start:shell": "ng serve --project ngx-lazy-elements-test-shell",
     "build": "ng build",
+    "ci": "npm run test && npm run build && npm run e2e",
     "release:patch": "./tools/publish.sh patch",
     "release:minor": "./tools/publish.sh minor",
     "release:major": "./tools/publish.sh major"
