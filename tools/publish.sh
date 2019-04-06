@@ -1,4 +1,5 @@
 #!/bin/bash
+LEVEL=$1
 
 pushd projects/ngx-lazy-elements
 VERSION=$(npm version $LEVEL)
