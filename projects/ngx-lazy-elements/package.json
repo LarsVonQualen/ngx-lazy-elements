@@ -11,6 +11,14 @@
     "components",
     "lazy"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsVonQualen/ngx-lazy-elements.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LarsVonQualen/ngx-lazy-elements/issues"
+  },
+  "homepage": "https://github.com/LarsVonQualen/ngx-lazy-elements#readme",
   "peerDependencies": {
     "@angular/common": "^7.2.12",
     "@angular/core": "^7.2.12",
