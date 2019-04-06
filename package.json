@@ -1,0 +1,26 @@
+{
+  "name": "ngx-lazy-elements",
+  "version": "0.0.0",
+  "description": "Library that helps you manage lazy Angular Elements Web Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsVonQualen/ngx-lazy-elements.git"
+  },
+  "keywords": [
+    "angular",
+    "elements",
+    "web",
+    "components",
+    "lazy"
+  ],
+  "author": "Lars von Qualen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LarsVonQualen/ngx-lazy-elements/issues"
+  },
+  "homepage": "https://github.com/LarsVonQualen/ngx-lazy-elements#readme"
+}
