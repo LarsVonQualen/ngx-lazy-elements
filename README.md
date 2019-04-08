@@ -33,7 +33,7 @@ In order to make sure your application runs smoothly, make sure to only use `.re
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { NgxLazyElementsModule } from 'ngx-lazy-elements';
+import { NgxLazyElementsModule, NgxLazyElementsService } from 'ngx-lazy-elements';
 import { YourAwesomeComponent } from './your-awesome.component';
 
 @NgModule({
