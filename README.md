@@ -2,7 +2,7 @@
 
 Library that helps you manage lazy Angular Elements Web Components
 
-[![Build Status](https://travis-ci.org/LarsVonQualen/ngx-lazy-elements)](https://travis-ci.org/LarsVonQualen/ngx-lazy-elements/builds/517116329#)
+[![Build Status](https://travis-ci.org/LarsVonQualen/ngx-lazy-elements.svg?branch=master)](https://travis-ci.org/LarsVonQualen/ngx-lazy-elements)
 
 ## Installation
 
