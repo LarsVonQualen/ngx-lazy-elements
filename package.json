@@ -1,6 +1,6 @@
 {
   "name": "ngx-lazy-elements",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Library that helps you manage lazy Angular Elements Web Components",
   "main": "index.js",
   "scripts": {
