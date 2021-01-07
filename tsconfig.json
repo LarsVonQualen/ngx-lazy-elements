@@ -27,5 +27,8 @@
         "dist/ngx-lazy-elements/*"
       ]
     }
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false
   }
 }
