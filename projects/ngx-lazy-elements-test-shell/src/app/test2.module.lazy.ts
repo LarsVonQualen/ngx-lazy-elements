@@ -32,6 +32,7 @@ export class Test2LazyComponent extends NgxBaseLazyComponent<Test2Module> {
 
 @NgModule({
   declarations: [Test2LazyComponent],
+  entryComponents: [Test2LazyComponent], // Only relevant if not using Ivy Renderer
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class Test2LazyModule extends NgxBaseLazyModule<Test2LazyComponent> {

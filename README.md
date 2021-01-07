@@ -12,7 +12,7 @@ Using web components in production requires polyfills:
 
 - `elements-zone-strategy`
 - `@angular/elements`
-- `document-register-element`
+- `@ungap/custom-elements`
 - `@webcomponents/webcomponentsjs`
 
 For more information follow the guide here: [https://lvq.dk/blog/complete-angular-elements-example.html](https://lvq.dk/blog/complete-angular-elements-example.html)
