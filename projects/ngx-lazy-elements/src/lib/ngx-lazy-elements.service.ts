@@ -29,6 +29,7 @@ export class NgxLazyElementsService {
    * nodes that match elements in our registry not yet registered.
    */
   public startObservingDOM() {
+    this.w.__ngx_elements = this.registry;
     this.document.addedNodes
       .pipe(
         filter(tag => this.elementCache.has(tag)),

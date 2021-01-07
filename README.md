@@ -2,8 +2,6 @@
 
 Library that helps you manage lazy Angular Elements Web Components
 
-[![Build Status](https://travis-ci.org/LarsVonQualen/ngx-lazy-elements.svg?branch=master)](https://travis-ci.org/LarsVonQualen/ngx-lazy-elements)
-
 ## Installation
 
 `npm i --save ngx-lazy-elements`
@@ -17,7 +15,7 @@ Using web components in production requires polyfills:
 - `document-register-element`
 - `@webcomponents/webcomponentsjs`
 
-For more information follow the guide here: [https://blog.lvq.dk/complete-angular-elements-example/](https://blog.lvq.dk/complete-angular-elements-example/)
+For more information follow the guide here: [https://lvq.dk/blog/complete-angular-elements-example.html](https://lvq.dk/blog/complete-angular-elements-example.html)
 
 ## Usage
 

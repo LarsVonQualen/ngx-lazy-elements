@@ -8,13 +8,15 @@ import { NgxLazyElementsService } from './ngx-lazy-elements.service';
 import { NleDocumentService } from './document.service';
 import { NleCustomElementService } from './custom-element.service';
 import { NleMutationsService } from './mutations.service';
+import { NgxLazyLoaderService } from './ngx-lazy-loader.service';
 
 @NgModule({
   providers: [
     NgxLazyElementsService,
     NleDocumentService,
     NleCustomElementService,
-    NleMutationsService
+    NleMutationsService,
+    NgxLazyLoaderService
   ]
 })
 export class NgxLazyElementsModule {

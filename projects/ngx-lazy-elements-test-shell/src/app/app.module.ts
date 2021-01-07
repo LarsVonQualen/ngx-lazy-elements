@@ -9,11 +9,17 @@ import {
 import { Test1Component } from './test1.component';
 import { TestComponent } from './test.component';
 import { CommonModule } from '@angular/common';
+import { Test2LazyModule } from './test2.module.lazy';
 
 @NgModule({
   declarations: [AppComponent, TestComponent, Test1Component],
   entryComponents: [TestComponent, Test1Component],
-  imports: [BrowserModule, NgxLazyElementsModule.forRoot(), CommonModule],
+  imports: [
+    BrowserModule,
+    NgxLazyElementsModule.forRoot(),
+    CommonModule,
+    Test2LazyModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
