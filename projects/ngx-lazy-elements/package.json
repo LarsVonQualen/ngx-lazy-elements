@@ -1,6 +1,6 @@
 {
   "name": "ngx-lazy-elements",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Library that helps you manage lazy Angular Elements Web Components",
   "license": "MIT",
   "author": "Lars von Qualen",
