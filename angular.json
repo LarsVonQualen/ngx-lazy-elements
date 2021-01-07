@@ -78,7 +78,6 @@
                 "input": "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"
               }
             ],
-            "es5BrowserSupport": true,
             "progress": false
           },
           "configurations": {
