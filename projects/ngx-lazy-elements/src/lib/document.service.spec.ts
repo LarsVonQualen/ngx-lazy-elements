@@ -1,12 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { NleDocumentService } from './document.service';
 import { of, from } from 'rxjs';
+import { NleWindow } from './nle-window.token';
 
 describe('NleDocumentService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service = new NleDocumentService({} as Window, null);
+    const service = new NleDocumentService({} as NleWindow, null);
     expect(service).toBeTruthy();
   });
 
@@ -15,7 +16,7 @@ describe('NleDocumentService', () => {
     const service = new NleDocumentService(
       {
         document: { body: { innerHTML } }
-      } as Window,
+      } as NleWindow,
       null
     );
 
@@ -36,7 +37,7 @@ describe('NleDocumentService', () => {
     const service = new NleDocumentService(
       {
         document: { body: { innerHTML } }
-      } as Window,
+      } as NleWindow,
       {
         mutationObserverFactory: null,
         observe(target: Node, childList = true, subtree = true) {
