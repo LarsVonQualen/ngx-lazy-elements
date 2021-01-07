@@ -26,7 +26,7 @@ export class NgxLazyElementsModule {
     }
   }
 
-  public static forRoot(): ModuleWithProviders {
+  public static forRoot(): ModuleWithProviders<NgxLazyElementsModule> {
     return {
       ngModule: NgxLazyElementsModule
     };
