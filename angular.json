@@ -72,10 +72,12 @@
             "scripts": [
               {
                 "input": "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js",
-                "bundleName": "custom-elements-es5-adapter"
+                "bundleName": "custom-elements-es5-adapter",
+                "inject": true
               },
               {
-                "input": "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"
+                "input": "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
+                "inject": true
               }
             ],
             "progress": false
@@ -91,7 +93,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
